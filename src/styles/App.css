@@ -1,0 +1,85 @@
+body{
+  background:#0F172A;
+  color:white;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* .profile-img{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+  border:5px solid #38BDF8;
+  margin-bottom:20px;
+} */
+
+.skill-card{
+  background:#1E293B;
+  color:white;
+  transition:0.3s;
+}
+
+.skill-card:hover{
+  transform:translateY(-5px);
+}
+
+.project-card{
+  background:#1E293B;
+  color:white;
+}
+
+.project-card:hover{
+    transition: 1s ease;
+    transform:translateY(-5px);
+}
+
+.social-icons a{
+  color:#38BDF8;
+  font-size:35px;
+  margin:10px;
+}
+
+h2{
+  color:#38BDF8;
+  margin-bottom:25px;
+}
+
+
+
+.profile-img{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 5px solid #38BDF8;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
+
+
+.card{
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+section {
+  padding: 80px 0;
+}
